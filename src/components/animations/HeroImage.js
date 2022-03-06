@@ -15,34 +15,34 @@ const Wrapper = styled.div`
     position:relative;
     height:100%;
     max-width:667px;
-    outline:1px solid white;
-
+outline:5px solid green;
     .mockup1 {
     position: absolute;
     z-index:1;
-    width: 320px;
-    height: 100%;
-    background:url("/images/images/khloe-arledge-ND3edEmzcdQ-unsplash.svg");
+    top:-35px;
+    width: 445px;
+    height: 500px;
+    background:url("/images/images/khloe-arledge-ND3edEmzcdQ-unsplash.png");
     background-repeat:no-repeat;
-    background-size:contain;
+    background-size:cover;
   }
 
   .mockup2{
     position:absolute;
-    top:0;
-    right:0;
+    top:-15%;
+    left:-2%;
     z-index:0;
-    width:235px;
-    height:235px;
+    width:330px;
+    height:330px;
     background:#DCCA87;
   }
   .mockup3{
     position:absolute;
-    bottom:0;
-    left:0;
+    top:40%;
+    left:-3%;
     z-index:0;
-    width:235px;
-    height:235px;
+    width:330px;
+    height:330px;
     background:#DCCA87;
   }
 

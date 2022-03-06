@@ -1,7 +1,7 @@
 export const menuData =[
-            {title: "Courses",icon:"/images/icons/courses.svg", link:"/courses"},
-            {title: "Tutorials",icon:"/images/icons/tutorials.svg", link:"/tutorials"},
-            {title: "Pricing",icon:"/images/icons/pricing.svg", link:"/pricing"},
-            {title: "",icon:"/images/icons/search.svg", link:"/search"},
-            {title: "",icon:"/images/icons/account.svg", link:"/account"},
+            {title: "Home",icon:"/images/icons/courses.svg", link:"/"},
+            {title: "Pages",icon:"/images/icons/tutorials.svg", link:"/pages"},
+            {title: "About Us",icon:"/images/icons/pricing.svg", link:"/about"},
+            {title: "Blog",icon:"/images/icons/search.svg", link:"/blog"},
+            {title: "Landing",icon:"/images/icons/account.svg", link:"/landing"},
         ] ;
