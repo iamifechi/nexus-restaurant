@@ -12,22 +12,43 @@ export default function HeroImage() {
 }
 
 const Wrapper = styled.div`
-    position:relative;
-    height:100%;
-    max-width:667px;
+  position: relative;
+  height: 100%;
+  max-width: 667px;
 
-    .mockup1 {
-    position: absolute;
-    z-index:1;
-    top:-35px;
+  .mockup1 {
+    position: relative;
+    display:block;
+    top: -35px;
     width: 440px;
     height: 480px;
-    background:url("/images/images/khloe-arledge-ND3edEmzcdQ-unsplash.png");
-    background-repeat:no-repeat;
-    background-size:cover;
+    background: url("/images/images/khloe-arledge-ND3edEmzcdQ-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &:before {
+      position: absolute;
+      content:"";
+      top:-4%;
+      right:-4%;
+      z-index: -1;
+      width: 330px;
+      height: 330px;
+      background: #dcca87;
+    }
+    &:after {
+      position: absolute;
+      content:"";
+      top: 35%;
+      left: -4%;
+      z-index: -1;
+      width: 330px;
+      height: 330px;
+      background: #dcca87;
+    }
   }
 
-  .mockup2{
+  /* .mockup2{
     position:absolute;
     top:-15%;
     right:-18%;
@@ -44,6 +65,5 @@ const Wrapper = styled.div`
     width:330px;
     height:330px;
     background:#DCCA87;
-  }
-
+  } */
 `
