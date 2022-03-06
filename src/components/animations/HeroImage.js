@@ -13,7 +13,7 @@ export default function HeroImage() {
 
 const Wrapper = styled.div`
     position:relative;
-    /* height:736px; */
+    height:100%;
     width:435px;
     /* width:50%; */
     outline:1px solid white;
@@ -21,7 +21,7 @@ const Wrapper = styled.div`
     .mockup1 {
     position: absolute;
     z-index:1;
-    width: 100%;
+    width: 80%;
     height: 100%;
     background:url("/images/images/khloe-arledge-ND3edEmzcdQ-unsplash.svg") no-repeat;
   }
