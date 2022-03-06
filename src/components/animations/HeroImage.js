@@ -15,13 +15,13 @@ const Wrapper = styled.div`
     position:relative;
     height:100%;
     max-width:667px;
-outline:5px solid green;
+
     .mockup1 {
     position: absolute;
     z-index:1;
     top:-35px;
-    width: 445px;
-    height: 500px;
+    width: 440px;
+    height: 480px;
     background:url("/images/images/khloe-arledge-ND3edEmzcdQ-unsplash.png");
     background-repeat:no-repeat;
     background-size:cover;
@@ -30,7 +30,7 @@ outline:5px solid green;
   .mockup2{
     position:absolute;
     top:-15%;
-    left:-2%;
+    right:-18%;
     z-index:0;
     width:330px;
     height:330px;
@@ -38,8 +38,8 @@ outline:5px solid green;
   }
   .mockup3{
     position:absolute;
-    top:40%;
-    left:-3%;
+    top:39%;
+    left:-4%;
     z-index:0;
     width:330px;
     height:330px;
