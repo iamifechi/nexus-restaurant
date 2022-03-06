@@ -3,7 +3,8 @@ import { themes } from './ColorStyles'
 
 export const GlobalStyle = createGlobalStyle`
     body{
-        background: ${themes.dark.backgroundColor};
+         background: ${themes.dark.backgroundColor};
+        //background: ${themes.dark.defaultBg};
 
         @media (prefer-color-scheme: dark){
             background: ${themes.dark.backgroundColor}

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const H1 = styled.h1`
 font-weight:bold;
-font-size:60px;
+font-size:90px;
 `
 export const H2 = styled.h2`
 font-weight:bold;
@@ -21,8 +21,8 @@ line-height:140%;
 
 export const MediumText = styled.p`
 font-weight:normal;
-font-size:17px;
-line-height:130%;
+font-size:16px;
+line-height:175%;
 `
 
 export const Caption = styled.p`
