@@ -13,16 +13,36 @@ export default function HeroImage() {
 
 const Wrapper = styled.div`
     position:relative;
-    width:667px;
+    /* height:736px; */
+    width:435px;
+    /* width:50%; */
     outline:1px solid white;
 
     .mockup1 {
     position: absolute;
-    width: 90%;
+    z-index:1;
+    width: 100%;
     height: 100%;
-    left: 5%;
-    top: 5%;
-
-    background:url("/images/images/khloe-arledge-ND3edEmzcdQ-unsplash.svg");
+    background:url("/images/images/khloe-arledge-ND3edEmzcdQ-unsplash.svg") no-repeat;
   }
+
+  .mockup2{
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:0;
+    width:435px;
+    height:435px;
+    background:#DCCA87;
+  }
+  .mockup3{
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:0;
+    width:435px;
+    height:435px;
+    background:#DCCA87;
+  }
+
 `

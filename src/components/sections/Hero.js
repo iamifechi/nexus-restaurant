@@ -13,13 +13,14 @@ function Hero() {
       <ContentWrapper>
         <TextWrapper>
           <Title>
-          The key to<br />
-          Fine dining
+            The key to
+            <br />
+            Fine dining
           </Title>
           <Description>
-          Sit tellus lobortis sed senectus vivamus molestie. 
-          Condimentum volutpat morbi facilisis quam scelerisque sapien.
-          Et, penatibus aliquam amet tellus
+            Sit tellus lobortis sed senectus vivamus molestie. Condimentum
+            volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
+            aliquam amet tellus
           </Description>
           <PurchaseButton
             title="Start learning"
@@ -37,19 +38,23 @@ function Hero() {
 export default Hero
 
 const Wrapper = styled.section`
-  /* background: linear-gradient(180deg, #4316db 0%, #9076e7 100%);
-   */
-  background:transparent;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // height: 100vh;
   overflow: hidden;
 `
 
 const ContentWrapper = styled.div`
   margin: 0 auto;
-  max-width:1300px;
+  max-width: 1300px;
+  // height: 736px;
   display: grid;
   grid-template-columns: 453px auto;
-  padding:169px 120px;
-
+  justify-content: center;
+  align-items: center;
+  padding: 169px 120px;
 `
 const TextWrapper = styled.div`
   display: grid;
@@ -58,7 +63,7 @@ const TextWrapper = styled.div`
 
 const Title = styled(H1)`
   font-family: Cormorant Upright;
-  font-size:85px;
+  font-size: 85px;
   font-style: normal;
   line-height: 130%;
   letter-spacing: 0.04em;
@@ -67,5 +72,5 @@ const Title = styled(H1)`
 `
 
 const Description = styled(MediumText)`
-  color: #AAAAAA;
+  color: #aaaaaa;
 `
