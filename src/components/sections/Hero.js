@@ -12,6 +12,7 @@ function Hero() {
     <Wrapper>
       <ContentWrapper>
         <TextWrapper>
+          <Subtitle> Chase the new Flavour </Subtitle>
           <Title>
             The key to
             <br />
@@ -42,28 +43,33 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  // height: 100vh;
+  width:100%;
+  padding:169px 0px 0px;
   overflow: hidden;
 `
 
 const ContentWrapper = styled.div`
   margin: 0 auto;
+  width:80%;
   max-width: 1300px;
-  // height: 736px;
   display: grid;
-  grid-template-columns: 453px auto;
+  gap:70px;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
-  padding: 169px 120px;
+  padding: 0px 5% 0px;
+  outline:10px solid red;
 `
 const TextWrapper = styled.div`
   display: grid;
   gap: 30px;
+  min-width:335px;
+  max-width:435px;
 `
 
 const Title = styled(H1)`
   font-family: Cormorant Upright;
-  font-size: 85px;
+  font-size: calc(100% + 40px);
   font-style: normal;
   line-height: 130%;
   letter-spacing: 0.04em;
@@ -71,6 +77,20 @@ const Title = styled(H1)`
   color: ${themes.dark.text3};
 `
 
+const Subtitle = styled.p`
+font-family: Cormorant Upright;
+font-style: normal;
+font-weight: bold;
+font-size: calc(100% + 2px);
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #FFFFFF;
+margin: 8px 0px;
+`
+
 const Description = styled(MediumText)`
+font-size:16px;
   color: #aaaaaa;
 `
