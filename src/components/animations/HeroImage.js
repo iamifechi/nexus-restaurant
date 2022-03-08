@@ -16,10 +16,12 @@ const Wrapper = styled.div`
   height: 100%;
   max-width: 667px;
 
+
+
   .mockup1 {
     position: relative;
-    display:block;
-    top: -35px;
+    display: block;
+    top: -10px;
     width: 440px;
     height: 480px;
     background: url("/images/images/khloe-arledge-ND3edEmzcdQ-unsplash.png");
@@ -28,42 +30,29 @@ const Wrapper = styled.div`
 
     &:before {
       position: absolute;
-      content:"";
-      top:-4%;
-      right:-4%;
+      content: "";
+      /* top: -4%;
+      right: -4%; */
+      top: -16px;
+      right: -16px;
       z-index: -1;
-      width: 330px;
-      height: 330px;
+      width: 310px;
+      height: 310px;
       background: #dcca87;
     }
     &:after {
       position: absolute;
-      content:"";
-      top: 35%;
-      left: -4%;
+      content: "";
+      /* top: 35%;
+      left: -4%; */
+      top: 187px;
+      left: -16px;
       z-index: -1;
-      width: 330px;
-      height: 330px;
+      width: 310px;
+      height: 310px;
       background: #dcca87;
     }
   }
 
-  /* .mockup2{
-    position:absolute;
-    top:-15%;
-    right:-18%;
-    z-index:0;
-    width:330px;
-    height:330px;
-    background:#DCCA87;
-  }
-  .mockup3{
-    position:absolute;
-    top:39%;
-    left:-4%;
-    z-index:0;
-    width:330px;
-    height:330px;
-    background:#DCCA87;
-  } */
+ 
 `
